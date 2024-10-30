@@ -1,0 +1,96 @@
+/* Flyout */
+
+.megamaxmenu .megamaxmenu-item.megamaxmenu-has-submenu-flyout{
+	/*position:relative;*/
+}
+.megamaxmenu .megamaxmenu-submenu-type-flyout > .megamaxmenu-item{
+	display:block;
+	float:none;
+	position:relative;
+	min-width:150px;
+	clear:both;
+}
+.megamaxmenu .megamaxmenu-submenu .megamaxmenu-submenu-type-flyout{
+	min-width:100%;
+}
+.megamaxmenu:not(.megamaxmenu-transition-slide) .megamaxmenu-submenu.megamaxmenu-submenu-type-flyout {
+    max-height: 99999px; /* Allows transitions-out to work properly */
+}
+
+
+
+/* Second + */
+.megamaxmenu .megamaxmenu-submenu-type-flyout > .megamaxmenu-item.megamaxmenu-active{
+    z-index:50; //Make sure actives overlay non-actives
+}
+.megamaxmenu .megamaxmenu-submenu .megamaxmenu-submenu-type-flyout{
+	margin-top:-1px;
+	top:0;
+	left:100%;
+	min-width:0;
+	clip: rect(-10px,5000px,5000px,0);
+}
+.megamaxmenu-nojs.megamaxmenu-transition-shift .megamaxmenu-submenu .megamaxmenu-item:hover > .megamaxmenu-submenu-drop.megamaxmenu-submenu-type-flyout,
+.megamaxmenu-transition-shift .megamaxmenu-submenu .megamaxmenu-item.megamaxmenu-active > .megamaxmenu-submenu-drop.megamaxmenu-submenu-type-flyout{
+	margin-top:-1px;
+}
+.megamaxmenu .megamaxmenu-submenu .megamaxmenu-submenu-type-flyout.megamaxmenu-submenu-align-right_edge_item{
+	left:auto;
+	right:100%;
+
+	clip: rect(-10px,5000px,5000px,-5000px);
+}
+.megamaxmenu .megamaxmenu-submenu .megamaxmenu-item.megamaxmenu-active > .megamaxmenu-submenu-type-flyout{
+	top:0;
+}
+.megamaxmenu .megamaxmenu-submenu-type-flyout > .megamaxmenu-item.megamaxmenu-has-submenu-mega{
+	position:static;
+}
+.megamaxmenu .megamaxmenu-submenu.megamaxmenu-submenu-type-flyout > .megamaxmenu-item > .megamaxmenu-submenu.megamaxmenu-submenu-type-mega{
+	left:100%;
+	/*top:-1px;*/
+	top:0px;
+	min-height:100%;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-ms-box-sizing:content-box;
+	box-sizing:content-box;
+
+	clip: rect(-10px,5000px,5000px,-5000px);
+}
+/* flyout > mega that goes left */
+.megamaxmenu .megamaxmenu-submenu.megamaxmenu-submenu-type-flyout > .megamaxmenu-item.megamaxmenu-submenu-flyout-mega-left > .megamaxmenu-target > .megamaxmenu-sub-indicator{
+    right:auto;
+    left:10px;
+    transform:rotate(90deg);
+}
+.megamaxmenu .megamaxmenu-submenu.megamaxmenu-submenu-type-flyout > .megamaxmenu-item.megamaxmenu-submenu-flyout-mega-left > .megamaxmenu-submenu.megamaxmenu-submenu-type-mega.megamaxmenu-submenu-align-left_edge_item{
+    right:100%;
+    left:auto;
+}
+.megamaxmenu.megamaxmenu-horizontal .megamaxmenu-item-level-1:first-child > .megamaxmenu-submenu-type-flyout,
+.megamaxmenu.megamaxmenu-horizontal .megamaxmenu-item-level-1:first-child > .megamaxmenu-submenu-type-flyout > .megamaxmenu-item:first-child > .megamaxmenu-submenu-type-flyout,
+.megamaxmenu.megamaxmenu-horizontal .megamaxmenu-submenu-type-flyout .megamaxmenu-submenu-type-mega{
+	border-top:none;
+}
+
+/* Within Mega */
+
+/* Mega within mega */
+.megamaxmenu .megamaxmenu-item .megamaxmenu-submenu-type-mega .megamaxmenu-submenu-drop{
+    margin-top:0;
+    clip:rect(0,5000px,5000px,-5000px);
+}
+
+/* Flyout within mega */
+.megamaxmenu .megamaxmenu-item .megamaxmenu-submenu-type-mega .megamaxmenu-item.megamaxmenu-has-submenu-flyout{
+	position:relative;
+}
+.megamaxmenu .megamaxmenu-item .megamaxmenu-submenu-type-mega > .megamaxmenu-item.megamaxmenu-has-submenu-flyout > .megamaxmenu-submenu-drop{
+    top:auto;
+    left:auto;
+    box-shadow:none;
+}
+.megamaxmenu .megamaxmenu-submenu-type-mega .megamaxmenu-item.megamaxmenu-has-submenu-flyout.megamaxmenu-active{
+	z-index:100;
+}

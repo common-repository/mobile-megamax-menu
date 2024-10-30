@@ -1,0 +1,72 @@
+/* Text RTL */
+.rtl .megamaxmenu,
+.rtl .megamaxmenu.megamaxmenu-item-align-auto,
+.rtl .megamaxmenu .megamaxmenu-item{
+     text-align:right;
+}
+/* Left Aligned top level items */
+.rtl .megamaxmenu-items-align-left.megamaxmenu-horizontal{
+    text-align:left;
+}
+.rtl .megamaxmenu-items-align-left.megamaxmenu-horizontal .megamaxmenu-item.megamaxmenu-item-level-0{
+    float:none;
+}
+/* Center Aligned top level items */
+.rtl .megamaxmenu-items-align-center.megamaxmenu-horizontal{
+    text-align:center;
+}
+.rtl .megamaxmenu-items-align-left.megamaxmenu-horizontal .megamaxmenu-item.megamaxmenu-item-level-0{
+    float:none;
+}
+/* Left-most item top level */
+.rtl .megamaxmenu.megamaxmenu-horizontal .megamaxmenu-item-level-0:last-child > .megamaxmenu-target{
+    border-left:none;
+    box-shadow:none;
+}
+/* Columns RTL */
+.rtl .megamaxmenu .megamaxmenu-submenu-type-mega > .megamaxmenu-column:not(.megamaxmenu-tabs-group),
+.rtl .megamaxmenu .megamaxmenu-submenu-type-mega > .megamaxmenu-row > .megamaxmenu-column:not(.megamaxmenu-tabs-group),
+.rtl .megamaxmenu .megamaxmenu-submenu-type-tab-content-panel > .megamaxmenu-column:not(.megamaxmenu-tabs-group) {
+     float:right;
+}
+/* Reverse icon padding */
+.rtl .megamaxmenu .megamaxmenu-item-layout-icon_left>.megamaxmenu-target-title{
+    margin-left:0;
+    margin-right:.6em;
+}
+/* Move arrows to left */
+.rtl .megamaxmenu-sub-indicators .megamaxmenu-item-level-0.megamaxmenu-has-submenu-drop > .megamaxmenu-target{
+    padding-right:20px;
+    padding-left:25px;
+}
+.rtl .megamaxmenu-sub-indicators .megamaxmenu-item-level-0.megamaxmenu-has-submenu-drop > .megamaxmenu-target > .megamaxmenu-sub-indicator{
+    right:auto;
+    left:10px;
+}
+/* Disabling padding, but keep indicator on left for sub indicator */
+.rtl .megamaxmenu.megamaxmenu-sub-indicators .megamaxmenu-item.megamaxmenu-disable-padding.megamaxmenu-has-submenu-drop > .megamaxmenu-target{
+	padding-left:30px;
+	padding-right:0;
+}
+/* Search bar */
+.rtl .megamaxmenu .megamaxmenu-submenu .megamaxmenu-search .megamaxmenu-search-submit,
+.rtl .megamaxmenu .megamaxmenu-submenu .megamaxmenu-searchbar-drop .megamaxmenu-search-submit{
+    left:0;
+    right:auto;
+}
+.rtl .megamaxmenu .megamaxmenu-search input.megamaxmenu-search-input {
+    padding: 8px 15px 8px 40px;
+}
+.rtl .megamaxmenu .megamaxmenu-submenu .megamaxmenu-search input.megamaxmenu-search-input {
+    padding: 14px 25px 14px 50px;
+}
+
+/* Submenu indicator closes */
+.rtl .megamaxmenu.megamaxmenu-submenu-indicator-closes .megamaxmenu-sub-indicator-close{
+    right:auto;
+    left:0;
+}
+
+.rtl .megamaxmenu.megamaxmenu-horizontal .megamaxmenu-item.megamaxmenu-align-left{
+  float:left;
+}

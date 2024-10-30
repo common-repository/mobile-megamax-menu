@@ -1,0 +1,71 @@
+&.megamaxmenu{
+	display:block !important;
+}
+&.megamaxmenu-responsive .megamaxmenu-item.megamaxmenu-hide-desktop{
+	display:none !important;
+}
+&.megamaxmenu-responsive.megamaxmenu-retractors-responsive .megamaxmenu-retractor-mobile{
+	display:none;
+}
+
+
+/* Force current submenu always open but below others */
+&.megamaxmenu-force-current-submenu .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-submenu-drop,
+&.megamaxmenu-force-current-submenu .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-submenu-drop {
+    display: block!important;
+    opacity: 1!important;
+    visibility: visible!important;
+    margin: 0!important;
+    top: auto!important;
+    height: auto;
+    z-index:19;
+}
+
+
+/* Invert Horizontal menu to make subs go up */
+&.megamaxmenu-invert.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop{
+     top:auto;
+     bottom:100%;
+}
+&.megamaxmenu-invert.megamaxmenu-horizontal.megamaxmenu-sub-indicators .megamaxmenu-item-level-0.megamaxmenu-has-submenu-drop > .megamaxmenu-target > .megamaxmenu-sub-indicator{
+	transform:rotate(180deg);
+}
+/* Make second level flyouts fly up */
+&.megamaxmenu-invert.megamaxmenu-horizontal .megamaxmenu-submenu .megamaxmenu-item.megamaxmenu-active > .megamaxmenu-submenu-type-flyout{
+    top:auto;
+    bottom:0;
+}
+/* Clip the submenus properly when inverted */
+&.megamaxmenu-invert.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop{
+    clip: rect(-5000px,5000px,auto,-5000px);
+}
+
+
+
+/* Invert Vertical menu to make subs go left */
+&.megamaxmenu-invert.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop{
+  right:100%;
+  left:auto;
+}
+&.megamaxmenu-invert.megamaxmenu-vertical.megamaxmenu-sub-indicators .megamaxmenu-item-level-0.megamaxmenu-item-has-children > .megamaxmenu-target > .megamaxmenu-sub-indicator{
+  right:auto;
+  left:10px;
+	transform:rotate(90deg);
+}
+&.megamaxmenu-vertical.megamaxmenu-invert .megamaxmenu-item > .megamaxmenu-submenu-drop {
+  clip: rect(-5000px,5000px,5000px,-5000px);
+}
+/* Vertical Flyout > Flyout */
+&.megamaxmenu-vertical.megamaxmenu-invert.megamaxmenu-sub-indicators .megamaxmenu-has-submenu-drop > .megamaxmenu-target{
+  padding-left:25px;
+}
+&.megamaxmenu-vertical.megamaxmenu-invert .megamaxmenu-item > .megamaxmenu-target > .megamaxmenu-sub-indicator {
+  right:auto;
+  left:10px;
+  transform:rotate(90deg);
+}
+&.megamaxmenu-vertical.megamaxmenu-invert .megamaxmenu-item > .megamaxmenu-submenu-drop.megamaxmenu-submenu-type-flyout,
+&.megamaxmenu-vertical.megamaxmenu-invert .megamaxmenu-submenu-type-flyout > .megamaxmenu-item > .megamaxmenu-submenu-drop {
+  right: 100%;
+  left: auto;
+}

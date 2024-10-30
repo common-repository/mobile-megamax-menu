@@ -1,0 +1,183 @@
+PREFIX {
+}
+PREFIX .megamaxmenu-skin-deepsky {
+  font-size: 12px;
+  color: #888;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-target {
+  color: #555;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-target-description {
+  color: #aaa;
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-responsive-toggle {
+  background: #1b70ba;
+  color: #eee;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-responsive-toggle:hover {
+  background: #1c5eb5;
+  color: #fff;
+}
+PREFIX .megamaxmenu-skin-deepsky {
+  border: 1px solid #000;
+  background-color: #1b70ba;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #1b70ba), color-stop(50%, #1b70ba), color-stop(50%, #1c5eb5));
+  background: -webkit-linear-gradient(top, #1b70ba, #1c5eb5);
+  background: -moz-linear-gradient(top, #1b70ba, #1c5eb5);
+  background: -ms-linear-gradient(top, #1b70ba, #1c5eb5);
+  background: -o-linear-gradient(top, #1b70ba, #1c5eb5);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item-level-0.megamaxmenu-current-menu-parent > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-target {
+  color: #fff;
+  background: #1857a0;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-highlight {
+  color: #4d90fe;
+  background: transparent;
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  background-color: #1b70ba;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #1b70ba), color-stop(50%, #1b70ba), color-stop(50%, #1c5eb5));
+  background: -webkit-linear-gradient(top, #1b70ba, #1c5eb5);
+  background: -moz-linear-gradient(top, #1b70ba, #1c5eb5);
+  background: -ms-linear-gradient(top, #1b70ba, #1c5eb5);
+  background: -o-linear-gradient(top, #1b70ba, #1c5eb5);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  font-weight: bold;
+  color: #d9d9d9;
+  text-transform: uppercase;
+  border-left: 1px solid #000;
+  -webkit-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+}
+PREFIX body:not(.rtl) .megamaxmenu-skin-deepsky.megamaxmenu-horizontal .megamaxmenu-item-level-0:first-child > .megamaxmenu-target {
+  box-shadow: none;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item-level-0:hover > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target {
+  background: #1857a0;
+  color: #fff;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target {
+  color: #d9d9d9;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target:hover {
+  color: #fff;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  border-top: none;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-tab-content-panel {
+  background: #f9f9f9;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu,
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-target {
+  color: #888;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-highlight {
+  color: #4d90fe;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-target:hover,
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target {
+  color: #111;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #aaa;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #666;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target {
+  font-weight: bold;
+  color: #1857a0;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-item-header.megamaxmenu-has-submenu-stack > .megamaxmenu-target {
+  border-bottom: 1px solid #e9e9e9;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target:hover {
+  color: #222;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-current-menu-item > .megamaxmenu-target {
+  color: #222;
+  background: transparent;
+}
+PREFIX .megamaxmenu-nojs.megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-target {
+  background: #eee;
+  color: #111;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-tabs-group,
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-tab > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-tab-content-panel {
+  border-color: #eee;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-submenu-drop {
+  border-bottom-width: 3px;
+}
+PREFIX .megamaxmenu-skin-deepsky .megamaxmenu-item .megamaxmenu-submenu-drop {
+  -webkit-box-sizing: content-box;
+  /* Takes into account borders */
+  -moz-box-sizing: content-box;
+  /* Takes into account borders */
+  -o-box-sizing: content-box;
+  /* Takes into account borders */
+  box-sizing: content-box;
+  /* Takes into account borders */
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-horizontal .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-left_edge_bar,
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-horizontal .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-full_width {
+  left: -1px;
+  /* for borders */
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-horizontal .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-right_edge_bar {
+  right: -1px;
+  /* for borders */
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-horizontal .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-full_width.megamaxmenu-submenu-padded {
+  width: calc(100% + 3px);
+  /* because we use box-sizing:border-box */
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop,
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-nojs.megamaxmenu-vertical .megamaxmenu-item-level-0:hover > .megamaxmenu-submenu-drop,
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-vertical .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-submenu-drop,
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-vertical .megamaxmenu-active .megamaxmenu-submenu.megamaxmenu-submenu-type-flyout .megamaxmenu-submenu-type-mega {
+  top: -1px;
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-horizontal .megamaxmenu-item-level-0.megamaxmenu-active:after {
+  content: '';
+  border-bottom: 1px solid transparent;
+  width: 100%;
+  width: calc(100% + 1px);
+  margin-bottom: -1px;
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-horizontal .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-submenu-drop,
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-horizontal:not(.megamaxmenu-transition-shift) .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  margin-top: 1px;
+}
+PREFIX .megamaxmenu-skin-deepsky.megamaxmenu-vertical:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -1px;
+  height: 100%;
+  border-right: 1px solid #000;
+  z-index: 100;
+  width: 0;
+}

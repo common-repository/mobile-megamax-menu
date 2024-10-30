@@ -1,0 +1,115 @@
+.megamaxmenu-skin-trans-black-hov {
+  font-size: 12px;
+  color: #ccc;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-target {
+  color: #ddd;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-target-description {
+  color: #ccc;
+}
+.megamaxmenu-skin-trans-black-hov.megamaxmenu-responsive-toggle {
+  background: transparent;
+  color: #444;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: bold;
+}
+.megamaxmenu-skin-trans-black-hov.megamaxmenu-responsive-toggle:hover {
+  background: transparent;
+  color: #222;
+}
+.megamaxmenu-skin-trans-black-hov {
+  border: none;
+  background: transparent;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-target,
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item-level-0.megamaxmenu-current-menu-parent > .megamaxmenu-target,
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-target {
+  color: #000;
+  background: transparent;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-highlight {
+  color: #4d90fe;
+  background: transparent;
+}
+.megamaxmenu-skin-trans-black-hov.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  background: transparent;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  font-weight: bold;
+  color: #666;
+  text-transform: none;
+  border-left: none;
+  -webkit-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+}
+body:not(.rtl) .megamaxmenu-skin-trans-black-hov.megamaxmenu-horizontal .megamaxmenu-item-level-0:first-child > .megamaxmenu-target {
+  box-shadow: none;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item-level-0:hover > .megamaxmenu-target,
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target {
+  color: #666;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target:hover {
+  color: #fff;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid #111;
+}
+.megamaxmenu-skin-trans-black-hov.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  border-top: none;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-tab-content-panel {
+  background: rgba(0, 0, 0, 0.9);
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu,
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-target {
+  color: #d9d9d9;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-highlight {
+  color: #4d90fe;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-target:hover,
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target {
+  color: #fff;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #aaa;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #666;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target {
+  font-weight: bold;
+  color: #eee;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-item-header.megamaxmenu-has-submenu-stack > .megamaxmenu-target {
+  border-bottom: 1px solid #aaa;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target:hover {
+  color: #fff;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-current-menu-item > .megamaxmenu-target {
+  color: #fff;
+  background: transparent;
+}
+.megamaxmenu-nojs.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-target {
+  background: #333;
+  color: #eee;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-tabs-group,
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-tab > .megamaxmenu-target,
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-tab-content-panel {
+  border-color: #000;
+}
+.megamaxmenu-skin-trans-black-hov .megamaxmenu-submenu-drop {
+  border-bottom-width: 3px;
+}

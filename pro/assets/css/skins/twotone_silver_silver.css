@@ -1,0 +1,130 @@
+.megamaxmenu-skin-tt-silver-s {
+  font-size: 12px;
+  color: #ccc;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-target {
+  color: #ddd;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-target-description {
+  color: #ccc;
+}
+.megamaxmenu-skin-tt-silver-s.megamaxmenu-responsive-toggle {
+  background: #f2f2f2;
+  color: #444;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: bold;
+}
+.megamaxmenu-skin-tt-silver-s.megamaxmenu-responsive-toggle:hover {
+  background: #e6e6e6;
+  color: #222;
+}
+.megamaxmenu-skin-tt-silver-s {
+  border: none;
+  background-color: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e6e6e6));
+  background: -webkit-linear-gradient(top, #f2f2f2 50%, #f2f2f2 50%, #e6e6e6 50%);
+  background: -moz-linear-gradient(top, #f2f2f2 50%, #f2f2f2 50%, #e6e6e6 50%);
+  background: -ms-linear-gradient(top, #f2f2f2 50%, #f2f2f2 50%, #e6e6e6 50%);
+  background: -o-linear-gradient(top, #f2f2f2 50%, #f2f2f2 50%, #e6e6e6 50%);
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-target,
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item-level-0.megamaxmenu-current-menu-parent > .megamaxmenu-target,
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-target {
+  color: #444;
+  background: transparent;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-highlight {
+  color: #222;
+  background: transparent;
+}
+.megamaxmenu-skin-tt-silver-s.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  background-color: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e6e6e6));
+  background: -webkit-linear-gradient(top, #f2f2f2 50%, #f2f2f2 50%, #e6e6e6 50%);
+  background: -moz-linear-gradient(top, #f2f2f2 50%, #f2f2f2 50%, #e6e6e6 50%);
+  background: -ms-linear-gradient(top, #f2f2f2 50%, #f2f2f2 50%, #e6e6e6 50%);
+  background: -o-linear-gradient(top, #f2f2f2 50%, #f2f2f2 50%, #e6e6e6 50%);
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  font-weight: bold;
+  color: #444;
+  text-transform: none;
+  border-left: none;
+  -webkit-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0);
+  -moz-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0);
+  box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0);
+}
+body:not(.rtl) .megamaxmenu-skin-tt-silver-s.megamaxmenu-horizontal .megamaxmenu-item-level-0:first-child > .megamaxmenu-target {
+  box-shadow: none;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item-level-0:hover > .megamaxmenu-target,
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target {
+  background: transparent;
+  color: #222;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target {
+  color: #444;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target:hover {
+  color: #222;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #e9e9e9;
+}
+.megamaxmenu-skin-tt-silver-s.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  border-top: none;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-tab-content-panel {
+  background: rgba(255, 255, 255, 0.9);
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu,
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-target {
+  color: #555;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-highlight {
+  color: #4d90fe;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-target:hover,
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target {
+  color: #111;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #aaa;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #666;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target {
+  font-weight: bold;
+  color: #444;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-item-header.megamaxmenu-has-submenu-stack > .megamaxmenu-target {
+  border-bottom: 1px solid #e9e9e9;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target:hover {
+  color: #222;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-current-menu-item > .megamaxmenu-target {
+  color: #222;
+  background: transparent;
+}
+.megamaxmenu-nojs.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-target {
+  background: #eee;
+  color: #111;
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-tabs-group,
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-tab > .megamaxmenu-target,
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-tab-content-panel {
+  border-color: #eee;
+}
+@media screen and (max-width: 960px) {
+  .megamaxmenu-skin-tt-silver-s {
+    background: #eee;
+  }
+}
+.megamaxmenu-skin-tt-silver-s .megamaxmenu-submenu-drop {
+  border-bottom-width: 3px;
+}

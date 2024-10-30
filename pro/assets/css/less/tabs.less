@@ -1,0 +1,89 @@
+/* Tabs */
+
+.megamaxmenu .megamaxmenu-tabs{
+	position:relative;
+	width:100%;	/* Will be overridden by columns */
+}
+.megamaxmenu .megamaxmenu-tabs-group{
+	border-style:solid;
+}
+.megamaxmenu .megamaxmenu-tab .megamaxmenu-tab-content-panel{
+	position:absolute;
+	display:none;
+}
+.megamaxmenu .megamaxmenu-tab > .megamaxmenu-target,
+.megamaxmenu .megamaxmenu-tab .megamaxmenu-tab-content-panel{
+	/* Init border for later styling */
+	border-width:0;
+	border-style:solid;
+}
+.megamaxmenu-nojs .megamaxmenu-tab:hover > .megamaxmenu-tab-content-panel,
+.megamaxmenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-tab-content-panel{
+	display:block;
+}
+.megamaxmenu-nojs .megamaxmenu-tabs-show-default > .megamaxmenu-tabs-group > .megamaxmenu-tab:first-child > .megamaxmenu-tab-content-panel{
+	display:block; /* Show first tab panel */
+}
+.megamaxmenu-nojs .megamaxmenu-tabs-show-default:hover > .megamaxmenu-tabs-group > .megamaxmenu-tab:first-child > .megamaxmenu-tab-content-panel{
+	display:none; /* Hide first tab panel when showing others */
+}
+.megamaxmenu-nojs .megamaxmenu-tabs-show-default:hover > .megamaxmenu-tabs-group > .megamaxmenu-tab:first-child:hover > .megamaxmenu-tab-content-panel{
+	display:block; /* Show first tab panel when hovering in its tab */
+}
+
+/* Tabs Left */
+.megamaxmenu .megamaxmenu-tab-layout-left > .megamaxmenu-tabs-group{
+	float:left;
+	border-width:0 1px 0 0;
+}
+.megamaxmenu .megamaxmenu-tab-layout-left > .megamaxmenu-tabs-group > .megamaxmenu-tab > .megamaxmenu-tab-content-panel{
+	right:0;
+	top:0;
+}
+.megamaxmenu-sub-indicators .megamaxmenu-tabs.megamaxmenu-tab-layout-left > .megamaxmenu-tabs-group > .megamaxmenu-has-submenu-drop > .megamaxmenu-target > .megamaxmenu-sub-indicator{
+	transform:rotate(-90deg);
+}
+
+/* Tabs Right */
+.megamaxmenu .megamaxmenu-tab-layout-right > .megamaxmenu-tabs-group{
+	float:right;
+	border-width:0 0 0 1px;
+}
+.megamaxmenu .megamaxmenu-tab-layout-right > .megamaxmenu-tabs-group > .megamaxmenu-tab > .megamaxmenu-tab-content-panel{
+	left:0;
+	top:0;
+}
+.megamaxmenu .megamaxmenu-tab-layout-right > .megamaxmenu-tabs-group > .megamaxmenu-has-submenu-drop > .megamaxmenu-target{
+	padding-left:25px;
+	padding-right:20px;
+}
+.megamaxmenu-sub-indicators .megamaxmenu-tabs.megamaxmenu-tab-layout-right > .megamaxmenu-tabs-group > .megamaxmenu-has-submenu-drop > .megamaxmenu-target > .megamaxmenu-sub-indicator{
+	transform:rotate(90deg);
+	right:auto;
+	left:10px;
+}
+
+/* Tabs Top */
+.megamaxmenu .megamaxmenu-tab-layout-top > .megamaxmenu-tabs-group{
+// 	border-width:0 0 1px 0;
+	border-width:0;
+}
+.megamaxmenu .megamaxmenu-tab-layout-top > .megamaxmenu-tabs-group > .megamaxmenu-tab > .megamaxmenu-tab-content-panel{
+	left:0;
+	top:auto;
+	border-width:1px 0 0 0;
+}
+
+/* Tabs Bottom */
+.megamaxmenu .megamaxmenu-tab-layout-bottom > .megamaxmenu-tabs-group{
+	border-width:1px 0 0 0;
+	position:absolute;
+	bottom:0;
+}
+.megamaxmenu .megamaxmenu-tab-layout-bottom > .megamaxmenu-tabs-group > .megamaxmenu-tab > .megamaxmenu-tab-content-panel{
+	left:0;
+	bottom:100%;
+}
+.megamaxmenu-sub-indicators .megamaxmenu-tabs.megamaxmenu-tab-layout-bottom > .megamaxmenu-tabs-group > .megamaxmenu-has-submenu-drop > .megamaxmenu-target > .megamaxmenu-sub-indicator{
+	transform:rotate(180deg);
+}

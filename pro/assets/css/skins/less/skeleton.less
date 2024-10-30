@@ -1,0 +1,144 @@
+//General
+.megamaxmenu-skin-@{skin_name}{
+	font-size:@font_size;
+	color:@color;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-target{
+	color:@target_color;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-target-description{
+	color:@description_color;
+}
+
+//Toggle
+.megamaxmenu-skin-@{skin_name}.megamaxmenu-responsive-toggle{
+	background:@toggle_background;
+	color:@toggle_color;
+	font-size:@font_size;
+	text-transform:@top_level_text_transform;
+	font-weight:@top_level_font_weight;
+}
+.megamaxmenu-skin-@{skin_name}.megamaxmenu-responsive-toggle:hover{
+	background:@toggle_background_hover;
+	color:@toggle_color_hover;
+}
+
+//Menu Bar
+.megamaxmenu-skin-@{skin_name}{
+	border:@menu_bar_border;
+	.bar_mix;
+}
+
+
+//Top Level Current Menu Items
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-target,
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item-level-0.megamaxmenu-current-menu-parent > .megamaxmenu-target,
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-target{
+	color:@top_level_current_item_color;
+	background:@top_level_current_item_background;
+}
+
+//Highlights
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-highlight{
+	color:@top_level_highlight_color;
+	background:@top_level_highlight_background;
+}
+
+//Vertical
+.megamaxmenu-skin-@{skin_name}.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target{
+	.bar_mix;
+}
+
+//Top Level Targets
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item-level-0 > .megamaxmenu-target{
+	font-weight:@top_level_font_weight;
+	color:@top_level_color;
+	text-transform:@top_level_text_transform;
+	border-left:@top_level_divider;
+	.topglow;
+}
+//Remove box shadow from first item in horizontal layouts
+body:not(.rtl) .megamaxmenu-skin-@{skin_name}.megamaxmenu-horizontal .megamaxmenu-item-level-0:first-child > .megamaxmenu-target{
+	box-shadow:none;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item-level-0:hover > .megamaxmenu-target,	//removed .megamaxmenu-notouch / only use hover on non-touch since iOS Safari has browser bugs
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target{
+	background:@top_level_background_hover;
+	color:@top_level_color_hover;
+}
+
+
+//Top Level Stack
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target{
+	color:@top_level_stack_color;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target:hover{
+	color:@top_level_stack_color_hover;
+}
+
+
+//Dropdowns
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu.megamaxmenu-submenu-drop{
+	background:@dropdown_background;
+	border:@dropdown_border;
+}
+.megamaxmenu-skin-@{skin_name}.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop{
+	border-top:@dropdown_border_top; //@menu_bar_border;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-tab-content-panel{
+	background:@dropdown_background;
+}
+
+//Submenu Targets
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu,
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-target{
+	color:@submenu_target_color;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-highlight{
+	color:@highlight_color;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-target:hover, //removed .megamaxmenu-notouch
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target{
+	color:@submenu_target_color_hover;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-target > .megamaxmenu-target-description{
+	color:@submenu_description_color;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-target-description{
+	color:@submenu_description_color_hover;
+}
+
+
+
+//Headers
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target{
+	font-weight:@header_font_weight;
+	color:@header_color;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-item-header.megamaxmenu-has-submenu-stack > .megamaxmenu-target{
+	border-bottom:@header_border;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target:hover{
+	color:@header_color_hover;
+}
+
+
+
+//Current Menu Items (Submenus)
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-current-menu-item > .megamaxmenu-target{
+	color:@current_item_color;
+	background:@current_item_background;
+}
+
+
+//Tabs
+.megamaxmenu-nojs.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-submenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-target{
+	background:@tab_background_hover;
+	color:@tab_color_hover;
+}
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-tabs-group,
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-tab > .megamaxmenu-target,
+.megamaxmenu-skin-@{skin_name} .megamaxmenu-tab-content-panel{
+	border-color: @tab_border_color;
+}

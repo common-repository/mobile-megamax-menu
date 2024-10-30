@@ -1,0 +1,117 @@
+PREFIX {
+}
+PREFIX .megamaxmenu-skin-vanilla {
+  font-size: 12px;
+  color: #888;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-target {
+  color: #999;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-target-description {
+  color: #aaa;
+}
+PREFIX .megamaxmenu-skin-vanilla.megamaxmenu-responsive-toggle {
+  background: #f9f9f9;
+  color: #888;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: normal;
+}
+PREFIX .megamaxmenu-skin-vanilla.megamaxmenu-responsive-toggle:hover {
+  background: #f0f0f0;
+  color: #444;
+}
+PREFIX .megamaxmenu-skin-vanilla {
+  border: none;
+  background: transparent;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item-level-0.megamaxmenu-current-menu-parent > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-target {
+  color: #444;
+  background: transparent;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-highlight {
+  color: #4d90fe;
+  background: transparent;
+}
+PREFIX .megamaxmenu-skin-vanilla.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  background: transparent;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  font-weight: normal;
+  color: #888;
+  text-transform: none;
+  border-left: none;
+}
+PREFIX body:not(.rtl) .megamaxmenu-skin-vanilla.megamaxmenu-horizontal .megamaxmenu-item-level-0:first-child > .megamaxmenu-target {
+  box-shadow: none;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item-level-0:hover > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target {
+  background: transparent;
+  color: #222;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target {
+  color: #888;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target:hover {
+  color: #222;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+}
+PREFIX .megamaxmenu-skin-vanilla.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  border-top: 1px solid #e0e0e0;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-tab-content-panel {
+  background: #f9f9f9;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu,
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-target {
+  color: #999;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-highlight {
+  color: #4d90fe;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-target:hover,
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target {
+  color: #111;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #aaa;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #666;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target {
+  font-weight: bold;
+  color: #777;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-item-header.megamaxmenu-has-submenu-stack > .megamaxmenu-target {
+  border-bottom: 1px solid #e9e9e9;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target:hover {
+  color: #222;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-current-menu-item > .megamaxmenu-target {
+  color: #444;
+  background: transparent;
+}
+PREFIX .megamaxmenu-nojs.megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-target {
+  background: #eee;
+  color: #111;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-tabs-group,
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-tab > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-tab-content-panel {
+  border-color: #eee;
+}
+PREFIX .megamaxmenu-skin-vanilla .megamaxmenu-submenu-drop {
+  border-bottom-width: 3px;
+}
+PREFIX .megamaxmenu-skin-vanilla.megamaxmenu-transition-fade .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  margin-top: 0;
+}

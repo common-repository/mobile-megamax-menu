@@ -1,0 +1,43 @@
+/** Responsive **/
+
+//.responsive_primary( @breakpoint ){}
+
+@media screen and (min-width: @breakpoint_expand){
+	.megamaxmenu-responsive-default{
+		@import "responsive_breakpoint_above.less";
+	}
+}
+
+//.responsive_primary( $breakpoint_primary );
+@media screen and (max-width: @breakpoint_primary){
+
+	.megamaxmenu-responsive-toggle,
+	.megamaxmenu-sticky-toggle-wrapper{
+		display:block;
+	}
+
+	//For stupid stupid Android browsers that don't support transforms/transitions properly
+	.megamaxmenu-no-transitions.megamaxmenu-responsive.megamaxmenu-responsive-collapse{
+		display:none;
+		visibility:visible;
+		height:auto;
+		max-height:none;
+		overflow:visible !important;
+	}
+	.megamaxmenu-sticky-wrapper{
+		min-height:0 !important;
+	}
+	.megamaxmenu-sticky-toggle-wrapper{
+		display:block;
+	}
+
+	.megamaxmenu-responsive-default{
+		@import "responsive_breakpoint_primary.less";
+	}
+}
+
+@media screen and (max-width: @breakpoint_secondary){
+	.megamaxmenu-responsive-default{
+		@import "responsive_breakpoint_secondary.less";
+	}
+}

@@ -1,0 +1,231 @@
+PREFIX  {
+  /* Tab Layering */
+  /* Tabs on Mobile with mouse (but not click) - leave space to hover off */
+  /* Sub indicator close visibility */
+}
+PREFIX  .megamaxmenu-responsive-toggle,
+PREFIX  .megamaxmenu-sticky-toggle-wrapper {
+  display: block;
+}
+PREFIX .megamaxmenu-responsive {
+  width: 100%;
+  max-height: 500px;
+  visibility: visible;
+  overflow: visible;
+  -webkit-transition: max-height 1s ease-in;
+  transition: max-height 0.3s ease-in;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-items-align-center {
+  text-align: left;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu {
+  margin: 0;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu .megamaxmenu-nav {
+  display: block;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-responsive-nocollapse,
+PREFIX .megamaxmenu-repsonsive.megamaxmenu-no-transitions {
+  display: block;
+  max-height: none;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-responsive-collapse {
+  max-height: none;
+  visibility: visible;
+  overflow: visible;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-responsive-collapse {
+  max-height: 0;
+  overflow: hidden !important;
+  visibility: hidden;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-in-transition,
+PREFIX .megamaxmenu-responsive.megamaxmenu-in-transition .megamaxmenu-nav {
+  overflow: hidden !important;
+  visibility: visible;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-responsive-collapse:not(.megamaxmenu-in-transition) {
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-responsive-collapse .megamaxmenu-item .megamaxmenu-submenu {
+  display: none;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-item-level-0 {
+  width: 50%;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-responsive-single-column .megamaxmenu-item-level-0 {
+  float: none;
+  clear: both;
+  width: 100%;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-target {
+  border: none;
+  box-shadow: none;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-item.megamaxmenu-has-submenu-flyout {
+  position: static;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-sub-indicators .megamaxmenu-submenu-type-flyout .megamaxmenu-has-submenu-drop > .megamaxmenu-target > .megamaxmenu-sub-indicator {
+  transform: rotate(0);
+  right: 10px;
+  left: auto;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-nav .megamaxmenu-item .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  top: auto;
+  left: 0 !important;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-has-border .megamaxmenu-nav .megamaxmenu-item .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  left: -1px !important;
+  /* For borders */
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-submenu.megamaxmenu-submenu-type-mega > .megamaxmenu-item.megamaxmenu-column {
+  min-height: 0;
+  border-left: none;
+  float: left;
+  /* override left/center/right content alignment */
+  display: block;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-item.megamaxmenu-active > .megamaxmenu-submenu.megamaxmenu-submenu-type-mega {
+  max-height: none;
+  height: auto;
+  /*prevent overflow scrolling since android is still finicky*/
+  overflow: visible;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-transition-slide .megamaxmenu-item.megamaxmenu-in-transition > .megamaxmenu-submenu-drop {
+  max-height: 1000px;
+  /* because of slide transition */
+}
+PREFIX .megamaxmenu .megamaxmenu-submenu-type-flyout .megamaxmenu-submenu-type-mega {
+  min-height: 0;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-column,
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-column-auto {
+  min-width: 50%;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-autoclear > .megamaxmenu-column {
+  clear: none;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-column:nth-of-type(2n+1) {
+  clear: both;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-submenu-retractor-top:not(.megamaxmenu-submenu-retractor-top-2) .megamaxmenu-column:nth-of-type(2n+1) {
+  clear: none;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-submenu-retractor-top:not(.megamaxmenu-submenu-retractor-top-2) .megamaxmenu-column:nth-of-type(2n+2) {
+  clear: both;
+}
+PREFIX .megamaxmenu-responsive-single-column-subs .megamaxmenu-submenu .megamaxmenu-item {
+  float: none;
+  clear: both;
+  width: 100%;
+  min-width: 100%;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tabs,
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tabs-group,
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tab,
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tab-content-panel {
+  /** TABS SHOULD BE 100% && ACCORDION */
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  left: 0;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tabs,
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tab-content-panel {
+  min-height: 0 !important;
+  /* Override Inline Style from JS */
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tabs {
+  z-index: 15;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tab-content-panel {
+  z-index: 20;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-tab {
+  position: relative;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-tab.megamaxmenu-active {
+  position: relative;
+  z-index: 20;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-tab > .megamaxmenu-target {
+  border-width: 0 0 1px 0;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-sub-indicators .megamaxmenu-tabs > .megamaxmenu-tabs-group > .megamaxmenu-tab.megamaxmenu-has-submenu-drop > .megamaxmenu-target > .megamaxmenu-sub-indicator {
+  transform: rotate(0);
+  right: 10px;
+  left: auto;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-tabs > .megamaxmenu-tabs-group > .megamaxmenu-tab > .megamaxmenu-tab-content-panel {
+  top: auto;
+  border-width: 1px;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-tab-layout-bottom > .megamaxmenu-tabs-group {
+  /*position:relative;*/
+}
+PREFIX .megamaxmenu-reponsive .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack {
+  /* Top Level Stack Columns */
+  position: relative;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-submenu-type-stack .megamaxmenu-column,
+PREFIX .megamaxmenu-responsive .megamaxmenu-submenu-type-stack .megamaxmenu-column-auto {
+  /* Stack Columns */
+  width: 100%;
+  max-width: 100%;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-item-mini {
+  /* Mini items */
+  min-width: 0;
+  width: auto;
+  float: left;
+  clear: none !important;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-item.megamaxmenu-item-mini > a.megamaxmenu-target {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+PREFIX .megamaxmenu-responsive .megamaxmenu-item.megamaxmenu-hide-mobile {
+  /* Hiding items */
+  display: none !important;
+}
+PREFIX .megamaxmenu-responsive.megamaxmenu-hide-bkgs .megamaxmenu-submenu.megamaxmenu-submenu-bkg-img {
+  /** Hide Background Images in Submenu */
+  background-image: none;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-item-level-0.megamaxmenu-item-mini {
+  min-width: 0;
+  width: auto;
+}
+PREFIX .megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-item-level-0 {
+  width: 100%;
+}
+PREFIX .megamaxmenu-vertical.megamaxmenu-sub-indicators .megamaxmenu-item-level-0.megamaxmenu-item-has-children > .megamaxmenu-target > .megamaxmenu-sub-indicator {
+  right: 10px;
+  left: auto;
+  transform: rotate(0);
+}
+PREFIX .megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-item-level-0.megamaxmenu-relative.megamaxmenu-active > .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-vertical_parent_item {
+  top: auto;
+}
+PREFIX .megamaxmenu.megamaxmenu-responsive .megamaxmenu-tabs {
+  position: static;
+}
+PREFIX .megamaxmenu:not(.megamaxmenu-is-mobile):not(.megamaxmenu-submenu-indicator-closes) .megamaxmenu-submenu .megamaxmenu-tab[data-megamaxmenu-trigger="mouseover"] .megamaxmenu-tab-content-panel,
+PREFIX .megamaxmenu:not(.megamaxmenu-is-mobile):not(.megamaxmenu-submenu-indicator-closes) .megamaxmenu-submenu .megamaxmenu-tab[data-megamaxmenu-trigger="hover_intent"] .megamaxmenu-tab-content-panel {
+  margin-left: 6%;
+  width: 94%;
+  min-width: 94%;
+}
+PREFIX .megamaxmenu.megamaxmenu-submenu-indicator-closes .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-sub-indicator-close {
+  display: block;
+}
+PREFIX .megamaxmenu.megamaxmenu-submenu-indicator-closes .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-sub-indicator {
+  display: none;
+}
+PREFIX .megamaxmenu .megamaxmenu-tabs .megamaxmenu-tab-content-panel {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.075);
+}

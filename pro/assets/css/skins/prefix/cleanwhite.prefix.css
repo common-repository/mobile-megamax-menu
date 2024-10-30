@@ -1,0 +1,120 @@
+PREFIX {
+}
+PREFIX .bar_mix {
+  background: #fff;
+}
+PREFIX .megamaxmenu-skin-clean-white {
+  font-size: 12px;
+  color: #888;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-target {
+  color: #999;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-target-description {
+  color: #aaa;
+}
+PREFIX .megamaxmenu-skin-clean-white.megamaxmenu-responsive-toggle {
+  background: #fff;
+  color: #888;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: bold;
+}
+PREFIX .megamaxmenu-skin-clean-white.megamaxmenu-responsive-toggle:hover {
+  background: #f0f0f0;
+  color: #444;
+}
+PREFIX .megamaxmenu-skin-clean-white {
+  border: none;
+  background: #fff;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item-level-0.megamaxmenu-current-menu-parent > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-target {
+  color: #A00;
+  background: transparent;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-highlight {
+  color: #4d90fe;
+  background: transparent;
+}
+PREFIX .megamaxmenu-skin-clean-white.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  background: #fff;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  font-weight: bold;
+  color: #666;
+  text-transform: none;
+  border-left: none;
+}
+PREFIX body:not(.rtl) .megamaxmenu-skin-clean-white.megamaxmenu-horizontal .megamaxmenu-item-level-0:first-child > .megamaxmenu-target {
+  box-shadow: none;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item-level-0:hover > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target {
+  background: #f9f9f9;
+  color: #111;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target {
+  color: #666;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target:hover {
+  color: #111;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  background: #f9f9f9;
+  border: 1px solid #f9f9f9;
+}
+PREFIX .megamaxmenu-skin-clean-white.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  border-top: 1px solid #f9f9f9;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-tab-content-panel {
+  background: #f9f9f9;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu,
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-target {
+  color: #999;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-highlight {
+  color: #4d90fe;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-target:hover,
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target {
+  color: #111;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #aaa;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #666;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target {
+  font-weight: bold;
+  color: #444;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-item-header.megamaxmenu-has-submenu-stack > .megamaxmenu-target {
+  border-bottom: 1px solid #e9e9e9;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target:hover {
+  color: #222;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-current-menu-item > .megamaxmenu-target {
+  color: #A00;
+  background: transparent;
+}
+PREFIX .megamaxmenu-nojs.megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-target {
+  background: #eee;
+  color: #111;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-tabs-group,
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-tab > .megamaxmenu-target,
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-tab-content-panel {
+  border-color: #eee;
+}
+PREFIX .megamaxmenu-skin-clean-white .megamaxmenu-submenu-drop {
+  border-bottom-width: 3px;
+}
+PREFIX .megamaxmenu-skin-clean-white.megamaxmenu-transition-fade .megamaxmenu-item .megamaxmenu-submenu-drop {
+  margin-top: 0;
+}

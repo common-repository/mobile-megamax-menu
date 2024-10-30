@@ -1,0 +1,71 @@
+/* SKIN */
+
+.megamaxmenu-skin-white{
+	margin:10px 0;
+	font-size:12px;
+
+	border-top:2px solid #222;
+	border-bottom:1px solid #eee;
+}
+.megamaxmenu-skin-white .megamaxmenu-target{
+	color:#555;
+}
+.megamaxmenu-skin-white .megamaxmenu-item-level-0 > .megamaxmenu-target{
+	font-weight:bold;
+}
+.megamaxmenu-skin-white .megamaxmenu-item-level-0:hover > .megamaxmenu-target,
+.megamaxmenu-skin-white .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target{
+	/*background:#9977C5;*/
+	background:#eee;
+	color:#111;
+}
+.megamaxmenu-skin-white .megamaxmenu-item-header > .megamaxmenu-target{
+	font-weight:bold;
+	border-bottom:1px solid #e9e9e9;
+}
+.megamaxmenu-skin-white .megamaxmenu-submenu-drop{
+	background:#fff;
+	border:1px solid #e9e9e9;
+
+}
+.megamaxmenu-skin-white .megamaxmenu-submenu-drop .megamaxmenu-target{
+	color:#555;
+}
+.megamaxmenu-skin-white .megamaxmenu-submenu-drop .megamaxmenu-target:hover,
+.megamaxmenu-skin-white .megamaxmenu-submenu-drop .megamaxmenu-target.megamaxmenu-active{
+	color:#111;
+}
+
+.megamaxmenu-skin-white .megamaxmenu-target-description{
+	color:#aaa;
+}
+
+
+.megamaxmenu-skin-white .megamaxmenu-nav .megamaxmenu-row-header{
+	padding:0 20px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.megamaxmenu-nojs.megamaxmenu-skin-white .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+.megamaxmenu-skin-white .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab-active > .megamaxmenu-target{
+	background:#eee;
+	color:#111;
+}
+/*
+.megamaxmenu-skin-white.megamaxmenu-nav .megamaxmenu-item .megamaxmenu-submenu-drop .megamaxmenu-tabs .megamaxmenu-toggle-active > .megamaxmenu-target{
+	color:#fff;
+}
+*/
+.megamaxmenu-skin-white .megamaxmenu-tabs-group,
+.megamaxmenu-skin-white .megamaxmenu-tab > .megamaxmenu-target,
+.megamaxmenu-skin-white .megamaxmenu-tab-content-panel{
+	/* background:#f9f9f9; */
+	border-color: #eee;
+}
+
+.megamaxmenu-skin-white .megamaxmenu-tab-content-panel{
+	/*background:#5C92F1;*/
+	
+}

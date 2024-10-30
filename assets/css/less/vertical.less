@@ -1,0 +1,82 @@
+/** Vertical **/
+
+.megamaxmenu-vertical .megamaxmenu-item-level-0{
+	display:block;
+	clear:both;
+}
+.megamaxmenu-vertical.megamaxmenu-items-align-right .megamaxmenu-item-level-0{
+  text-align:right;
+}
+.megamaxmenu-vertical.megamaxmenu-items-align-center .megamaxmenu-item-level-0{
+  text-align:center;
+}
+.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop{
+	clip: rect(-5000px,5000px,5000px,0);
+}
+.megamaxmenu.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target{
+	box-shadow:none;
+	border-left:none;
+}
+.megamaxmenu-vertical.megamaxmenu-sub-indicators .megamaxmenu-item-level-0.megamaxmenu-item-has-children > .megamaxmenu-target > .megamaxmenu-sub-indicator{
+	transform:rotate(-90deg);
+}
+
+.megamaxmenu-vertical .megamaxmenu-item > .megamaxmenu-submenu-drop{
+	left:100%;
+	margin-left:0px;
+	top:0px;
+}
+.megamaxmenu-nojs.megamaxmenu-vertical .megamaxmenu-item-level-0:hover > .megamaxmenu-submenu-drop,
+.megamaxmenu-vertical .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-submenu-drop,
+.megamaxmenu-vertical .megamaxmenu-active .megamaxmenu-submenu.megamaxmenu-submenu-type-flyout .megamaxmenu-submenu-type-mega{
+	top:0;
+	min-height:100%;
+}
+.megamaxmenu-nojs.megamaxmenu-vertical .megamaxmenu-item-level-0:hover > .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-vertical_parent_item,
+.megamaxmenu-vertical .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-vertical_parent_item{
+	min-height:0;
+}
+
+
+//Full Height Subs
+.megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-flyout-full-height{
+    position:static;
+}
+.megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-flyout-full-height > .megamaxmenu-submenu-drop{ //FYI this kills slide transition
+    min-height:100% !important;
+    max-height:none;
+    height:auto;
+}
+
+.megamaxmenu-vertical .megamaxmenu-submenu .megamaxmenu-item.megamaxmenu-active > .megamaxmenu-submenu-drop{
+	top:0px;
+}
+.megamaxmenu-vertical.megamaxmenu-transition-slide .megamaxmenu-item.megamaxmenu-active.megamaxmenu-in-transition > .megamaxmenu-submenu-drop{
+	min-height:0;
+}
+.megamaxmenu-vertical .megamaxmenu-item > .megamaxmenu-submenu-type-mega{
+	width:600px;
+	margin:0;
+}
+.megamaxmenu-vertical .megamaxmenu-tab-layout-left > .megamaxmenu-tabs-group > .megamaxmenu-tab > .megamaxmenu-tab-content-panel,
+.megamaxmenu-vertical .megamaxmenu-tab-layout-right > .megamaxmenu-tabs-group > .megamaxmenu-tab > .megamaxmenu-tab-content-panel{
+	min-height:100%;
+}
+.megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-relative{
+	position:relative;
+}
+.megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-relative.megamaxmenu-active{
+	z-index:20;
+}
+.megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-item-level-0.megamaxmenu-relative.megamaxmenu-active > .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-vertical_parent_item{
+	top:0px; //1px // -1px
+}
+
+.megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-item-mini{
+	float:left;
+	clear:none;
+}
+.megamaxmenu.megamaxmenu-vertical .megamaxmenu-item.megamaxmenu-item-mini > .megamaxmenu-target{
+	background:none;
+    box-shadow:none;
+}

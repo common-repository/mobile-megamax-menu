@@ -1,0 +1,181 @@
+.megamaxmenu-skin-aqua {
+  font-size: 12px;
+  color: #888;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-target {
+  color: #555;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-target-description {
+  color: #aaa;
+}
+.megamaxmenu-skin-aqua.megamaxmenu-responsive-toggle {
+  background: #03b28f;
+  color: #eee;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.megamaxmenu-skin-aqua.megamaxmenu-responsive-toggle:hover {
+  background: #00936c;
+  color: #fff;
+}
+.megamaxmenu-skin-aqua {
+  border: 1px solid #000;
+  background-color: #03b28f;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #03b28f), color-stop(50%, #03b28f), color-stop(50%, #00936c));
+  background: -webkit-linear-gradient(top, #03b28f, #00936c);
+  background: -moz-linear-gradient(top, #03b28f, #00936c);
+  background: -ms-linear-gradient(top, #03b28f, #00936c);
+  background: -o-linear-gradient(top, #03b28f, #00936c);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+.megamaxmenu-skin-aqua .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-target,
+.megamaxmenu-skin-aqua .megamaxmenu-item-level-0.megamaxmenu-current-menu-parent > .megamaxmenu-target,
+.megamaxmenu-skin-aqua .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-target {
+  color: #fff;
+  background: #008767;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-highlight {
+  color: #4d90fe;
+  background: transparent;
+}
+.megamaxmenu-skin-aqua.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  background-color: #03b28f;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #03b28f), color-stop(50%, #03b28f), color-stop(50%, #00936c));
+  background: -webkit-linear-gradient(top, #03b28f, #00936c);
+  background: -moz-linear-gradient(top, #03b28f, #00936c);
+  background: -ms-linear-gradient(top, #03b28f, #00936c);
+  background: -o-linear-gradient(top, #03b28f, #00936c);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+.megamaxmenu-skin-aqua .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  font-weight: bold;
+  color: #d9d9d9;
+  text-transform: uppercase;
+  border-left: 1px solid #000;
+  -webkit-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+}
+body:not(.rtl) .megamaxmenu-skin-aqua.megamaxmenu-horizontal .megamaxmenu-item-level-0:first-child > .megamaxmenu-target {
+  box-shadow: none;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-item-level-0:hover > .megamaxmenu-target,
+.megamaxmenu-skin-aqua .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target {
+  background: #008767;
+  color: #fff;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target {
+  color: #d9d9d9;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target:hover {
+  color: #fff;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+}
+.megamaxmenu-skin-aqua.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  border-top: none;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-tab-content-panel {
+  background: #f9f9f9;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu,
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-target {
+  color: #888;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-highlight {
+  color: #4d90fe;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-target:hover,
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target {
+  color: #111;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #aaa;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #666;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target {
+  font-weight: bold;
+  color: #008767;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-item-header.megamaxmenu-has-submenu-stack > .megamaxmenu-target {
+  border-bottom: 1px solid #e9e9e9;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target:hover {
+  color: #222;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-current-menu-item > .megamaxmenu-target {
+  color: #222;
+  background: transparent;
+}
+.megamaxmenu-nojs.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+.megamaxmenu-skin-aqua .megamaxmenu-submenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-target {
+  background: #eee;
+  color: #111;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-tabs-group,
+.megamaxmenu-skin-aqua .megamaxmenu-tab > .megamaxmenu-target,
+.megamaxmenu-skin-aqua .megamaxmenu-tab-content-panel {
+  border-color: #eee;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-submenu-drop {
+  border-bottom-width: 3px;
+}
+.megamaxmenu-skin-aqua .megamaxmenu-item .megamaxmenu-submenu-drop {
+  -webkit-box-sizing: content-box;
+  /* Takes into account borders */
+  -moz-box-sizing: content-box;
+  /* Takes into account borders */
+  -o-box-sizing: content-box;
+  /* Takes into account borders */
+  box-sizing: content-box;
+  /* Takes into account borders */
+}
+.megamaxmenu-skin-aqua.megamaxmenu-horizontal .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-left_edge_bar,
+.megamaxmenu-skin-aqua.megamaxmenu-horizontal .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-full_width {
+  left: -1px;
+  /* for borders */
+}
+.megamaxmenu-skin-aqua.megamaxmenu-horizontal .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-right_edge_bar {
+  right: -1px;
+  /* for borders */
+}
+.megamaxmenu-skin-aqua.megamaxmenu-horizontal .megamaxmenu-submenu-drop.megamaxmenu-submenu-align-full_width.megamaxmenu-submenu-padded {
+  width: calc(100% + 3px);
+  /* because we use box-sizing:border-box */
+}
+.megamaxmenu-skin-aqua.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop,
+.megamaxmenu-skin-aqua.megamaxmenu-nojs.megamaxmenu-vertical .megamaxmenu-item-level-0:hover > .megamaxmenu-submenu-drop,
+.megamaxmenu-skin-aqua.megamaxmenu-vertical .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-submenu-drop,
+.megamaxmenu-skin-aqua.megamaxmenu-vertical .megamaxmenu-active .megamaxmenu-submenu.megamaxmenu-submenu-type-flyout .megamaxmenu-submenu-type-mega {
+  top: -1px;
+}
+.megamaxmenu-skin-aqua.megamaxmenu-horizontal .megamaxmenu-item-level-0.megamaxmenu-active:after {
+  content: '';
+  border-bottom: 1px solid transparent;
+  width: 100%;
+  width: calc(100% + 1px);
+  margin-bottom: -1px;
+}
+.megamaxmenu-skin-aqua.megamaxmenu-horizontal .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-submenu-drop,
+.megamaxmenu-skin-aqua.megamaxmenu-horizontal:not(.megamaxmenu-transition-shift) .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  margin-top: 1px;
+}
+.megamaxmenu-skin-aqua.megamaxmenu-vertical:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -1px;
+  height: 100%;
+  border-right: 1px solid #000;
+  z-index: 100;
+  width: 0;
+}

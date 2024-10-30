@@ -1,0 +1,130 @@
+.megamaxmenu-skin-tt-blue {
+  font-size: 12px;
+  color: #ccc;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-target {
+  color: #ddd;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-target-description {
+  color: #ccc;
+}
+.megamaxmenu-skin-tt-blue.megamaxmenu-responsive-toggle {
+  background: #3771c8;
+  color: #eee;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: bold;
+}
+.megamaxmenu-skin-tt-blue.megamaxmenu-responsive-toggle:hover {
+  background: #2c5aa0;
+  color: #fff;
+}
+.megamaxmenu-skin-tt-blue {
+  border: none;
+  background-color: #3771c8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3771c8), to(#2c5aa0));
+  background: -webkit-linear-gradient(top, #3771c8 50%, #3771c8 50%, #2c5aa0 50%);
+  background: -moz-linear-gradient(top, #3771c8 50%, #3771c8 50%, #2c5aa0 50%);
+  background: -ms-linear-gradient(top, #3771c8 50%, #3771c8 50%, #2c5aa0 50%);
+  background: -o-linear-gradient(top, #3771c8 50%, #3771c8 50%, #2c5aa0 50%);
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-item-level-0.megamaxmenu-current-menu-item > .megamaxmenu-target,
+.megamaxmenu-skin-tt-blue .megamaxmenu-item-level-0.megamaxmenu-current-menu-parent > .megamaxmenu-target,
+.megamaxmenu-skin-tt-blue .megamaxmenu-item-level-0.megamaxmenu-current-menu-ancestor > .megamaxmenu-target {
+  color: #eee;
+  background: transparent;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-item.megamaxmenu-item-level-0 > .megamaxmenu-highlight {
+  color: #fff;
+  background: transparent;
+}
+.megamaxmenu-skin-tt-blue.megamaxmenu-vertical .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  background-color: #3771c8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3771c8), to(#2c5aa0));
+  background: -webkit-linear-gradient(top, #3771c8 50%, #3771c8 50%, #2c5aa0 50%);
+  background: -moz-linear-gradient(top, #3771c8 50%, #3771c8 50%, #2c5aa0 50%);
+  background: -ms-linear-gradient(top, #3771c8 50%, #3771c8 50%, #2c5aa0 50%);
+  background: -o-linear-gradient(top, #3771c8 50%, #3771c8 50%, #2c5aa0 50%);
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-item-level-0 > .megamaxmenu-target {
+  font-weight: bold;
+  color: #eee;
+  text-transform: none;
+  border-left: none;
+  -webkit-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0);
+  -moz-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0);
+  box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0);
+}
+body:not(.rtl) .megamaxmenu-skin-tt-blue.megamaxmenu-horizontal .megamaxmenu-item-level-0:first-child > .megamaxmenu-target {
+  box-shadow: none;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-item-level-0:hover > .megamaxmenu-target,
+.megamaxmenu-skin-tt-blue .megamaxmenu-item-level-0.megamaxmenu-active > .megamaxmenu-target {
+  background: transparent;
+  color: #fff;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target {
+  color: #eee;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-item-level-0 > .megamaxmenu-submenu-type-stack > .megamaxmenu-item > .megamaxmenu-target:hover {
+  color: #fff;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu.megamaxmenu-submenu-drop {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid #111;
+}
+.megamaxmenu-skin-tt-blue.megamaxmenu-horizontal .megamaxmenu-item-level-0 > .megamaxmenu-submenu-drop {
+  border-top: none;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-tab-content-panel {
+  background: rgba(0, 0, 0, 0.9);
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu,
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-target {
+  color: #d9d9d9;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-highlight {
+  color: #4d90fe;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-target:hover,
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target {
+  color: #fff;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #aaa;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-active > .megamaxmenu-target > .megamaxmenu-target-description {
+  color: #666;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target {
+  font-weight: bold;
+  color: #eee;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-item-header.megamaxmenu-has-submenu-stack > .megamaxmenu-target {
+  border-bottom: 1px solid #aaa;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-item-header > .megamaxmenu-target:hover {
+  color: #fff;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-current-menu-item > .megamaxmenu-target {
+  color: #fff;
+  background: transparent;
+}
+.megamaxmenu-nojs.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-tabs .megamaxmenu-tab:hover > .megamaxmenu-target,
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu .megamaxmenu-tab.megamaxmenu-active > .megamaxmenu-target {
+  background: #333;
+  color: #eee;
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-tabs-group,
+.megamaxmenu-skin-tt-blue .megamaxmenu-tab > .megamaxmenu-target,
+.megamaxmenu-skin-tt-blue .megamaxmenu-tab-content-panel {
+  border-color: #000;
+}
+@media screen and (max-width: 960px) {
+  .megamaxmenu-skin-tt-blue {
+    background: #3771c8;
+  }
+}
+.megamaxmenu-skin-tt-blue .megamaxmenu-submenu-drop {
+  border-bottom-width: 3px;
+}
